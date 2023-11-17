@@ -1,0 +1,154 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1300px;
+    width: 100%;
+}
+
+.nav{
+    background-color: black;
+    color: white;
+    height: 85px;
+    padding-top: 20px;
+    padding-inline: 30px;
+    font-size: 2em;
+    display:flex;
+    justify-content: space-between;
+
+}
+nav h3{
+    text-transform: uppercase;
+}
+.link{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    font-size: 20px;
+    padding-top: 10px;
+    
+   
+}
+header a{
+    color: white;
+}
+a{
+     text-decoration: none;
+}
+span{
+    color: #eb4800 ;
+
+}
+
+.new{
+    text-align: center;
+    height: calc(100vh - 85px);
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.7 ),rgba(0,0, 0, 0.7)),url(../images/shopper.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.hero{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.hero a{
+    display: inline-flex;
+    background-color:  #eb4800;
+    font-size: 1.3em;
+    padding: 13px 30px;
+    border-radius: 3%;
+    margin-block: 30px;
+}
+.hero span{
+    font-size: 1.7em;
+    text-align: center;
+}
+.hero p{
+font-size: 1.2em;
+}
+.hero h1{
+    font-size: 4em;
+    padding-block: 10px;
+}
+main{
+    padding-inline: 25px;
+}
+.latest{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    padding-inline: 5px;
+}
+.latest a{
+    color: #eb4800;
+}
+.latest h3{
+    font-size: 1.7em;
+}
+.empty{
+    background-color: black;
+    height: 1px;
+    margin-bottom: 50px;
+}
+.group1{
+    display: flex;
+}
+.group2{
+    display: flex;
+}
+.card{
+    background-color: gray;
+margin: 5px auto;
+width: 400px;
+border-radius: 3%;
+border: none;
+padding: 3px;
+}
+img{
+    height: 200px;
+    width: 100%;
+    display: block;
+}
+.inner{
+    background-color:white;
+    padding-block: 10px; 
+}
+.inner a{
+    color: #eb4800;
+}
+.inner p{
+    padding-block: 30px;
+}
+.class{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 10px;
+    padding-block: 15px;
+}
+.class h4{
+    color: gray;
+}
+.card p{
+    padding-left: 10px;
+    padding-block: 10px;
+    padding-right: 20px;
+}
+.inner h4{
+    font-size: 1.3em;
+}
+.inner h5{
+   font-size: 1.3em;
+}
+.inner a{
+    padding-left: 10px;
+    padding-block: 100px;
+
+}
